@@ -22,7 +22,7 @@ a {
 .main-header a {
   position: absolute;
   color: white;
-  font-size: 32px;
+  font-size: 2em;
   border: 1px solid #2F477B;
   border-radius: 4px;
   background: #3359A2;
