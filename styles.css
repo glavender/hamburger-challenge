@@ -11,25 +11,25 @@ a {
 
 .main-header {
   background: #355295;
-  padding: 5px;
   text-align: center;
   color: white;
   position: fixed;
   width: 100%;
   left: 0;
   transition: all 0.3s ease;
+  height: 3em;
 }
 .main-header a {
   position: absolute;
   color: white;
-  font-size: 2em;
+  font-size: 1.6em;
   border: 1px solid #2F477B;
   border-radius: 4px;
   background: #3359A2;
-  left: 20px;
-  top: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
+  left: 0.2em;
+  top: 0.2em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
 }
 
 .page-wrap {
@@ -53,7 +53,7 @@ a {
   border-top: 1px solid #3B3B3B;
   border-bottom: 1px solid #2E2E2E;
   color: white;
-  padding: 15px;
+  padding: 1.5em;
 }
 .main-nav a:hover, .main-nav a:focus {
   background: linear-gradient(#3B3B3B, #373536);
@@ -69,7 +69,7 @@ a {
 }
 
 .content {
-  padding: 100px 20px 20px 20px;
+  padding: 3em 2em 2em 2em;
 }
 
 .close-menu {
