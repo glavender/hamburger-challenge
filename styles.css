@@ -3,6 +3,7 @@ html, body {
   margin: 0px; 
   padding: 0px; 
   border: 0px;
+  font-family:Arial,Helvetica,sans-serif;
 }
 
 a {
@@ -53,7 +54,7 @@ a {
   border-top: 1px solid #3B3B3B;
   border-bottom: 1px solid #2E2E2E;
   color: white;
-  padding: 1.5em;
+  padding: 1em;
 }
 .main-nav a:hover, .main-nav a:focus {
   background: linear-gradient(#3B3B3B, #373536);
@@ -69,7 +70,7 @@ a {
 }
 
 .content {
-  padding: 3em 2em 2em 2em;
+  padding: 2.5em 1em 1em 1em;
 }
 
 .close-menu {
