@@ -78,11 +78,11 @@ a {
 }
 
 #main-nav:target {
-  width: 20%;
+  width: 150px;
 }
 
 #main-nav:target + .page-wrap {
-  width: 80%;
+  width: calc(100% - 150px);
 }
 #main-nav:target + .page-wrap .open-menu {
   display: none;
@@ -91,6 +91,6 @@ a {
   display: block;
 }
 #main-nav:target + .page-wrap .main-header {
-  width: 80%;
-  left: 20%;
+  width: calc(100% - 150px);
+  left: 150px;
 }
