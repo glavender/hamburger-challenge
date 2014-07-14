@@ -42,13 +42,14 @@ a {
     }
 
     .close-menu {
-    display: none;
+      display: none;
     }
-
   }
 
   .content {
     padding: 2.5em 1em 1em 1em;
+    transition: $bounce;
+
   }
 }
 

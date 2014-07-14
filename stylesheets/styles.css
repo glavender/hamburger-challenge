@@ -46,12 +46,13 @@ a {
 .page-wrap .main-header .close-menu {
   display: none;
 }
-/* line 50, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 .page-wrap .content {
   padding: 2.5em 1em 1em 1em;
+  transition: all 0.5s cubic-bezier(0.91, 0.8, 0.54, 1.39);
 }
 
-/* line 55, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 .main-nav {
   position: fixed;
   top: 0;
@@ -61,7 +62,7 @@ a {
   overflow-y: auto;
   transition: all 0.5s cubic-bezier(0.91, 0.8, 0.54, 1.39);
 }
-/* line 64, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 .main-nav a {
   display: block;
   background: #373536;
@@ -70,11 +71,11 @@ a {
   color: white;
   padding: 1em;
 }
-/* line 72, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .main-nav a:hover, .main-nav a:focus {
   background: linear-gradient(#3b3b3b, #373536);
 }
-/* line 77, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 .main-nav:after {
   content: "";
   position: absolute;
@@ -84,23 +85,23 @@ a {
   width: 1.5em;
   background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
-/* line 87, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 .main-nav:target {
   width: 9.5em;
 }
-/* line 90, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 .main-nav:target + .page-wrap {
   width: calc(100% - 9.5em);
 }
-/* line 93, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 .main-nav:target + .page-wrap .open-menu {
   display: none;
 }
-/* line 97, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 .main-nav:target + .page-wrap .close-menu {
   display: block;
 }
-/* line 101, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 .main-nav:target + .page-wrap .main-header {
   width: calc(100% - 9.5em);
   left: 9.5em;
