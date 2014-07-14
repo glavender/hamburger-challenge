@@ -90,7 +90,7 @@ a {
 }
 /* line 90, ../sass/styles.scss */
 .main-nav:target + .page-wrap {
-  width: calc(100% - $menu-width);
+  width: calc(100% - 9.5em);
 }
 /* line 93, ../sass/styles.scss */
 .main-nav:target + .page-wrap .open-menu {
@@ -102,6 +102,6 @@ a {
 }
 /* line 101, ../sass/styles.scss */
 .main-nav:target + .page-wrap .main-header {
-  width: calc(100% - $menu-width);
+  width: calc(100% - 9.5em);
   left: 9.5em;
 }
