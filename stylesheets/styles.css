@@ -1,0 +1,107 @@
+/* line 4, ../sass/styles.scss */
+html, body {
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+/* line 12, ../sass/styles.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 16, ../sass/styles.scss */
+.page-wrap {
+  float: right;
+  width: 100%;
+  transition: all 0.5s cubic-bezier(0.91, 0.8, 0.54, 1.39);
+}
+/* line 21, ../sass/styles.scss */
+.page-wrap .main-header {
+  background: #355295;
+  text-align: center;
+  color: white;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  transition: all 0.5s cubic-bezier(0.91, 0.8, 0.54, 1.39);
+  height: 3em;
+}
+/* line 31, ../sass/styles.scss */
+.page-wrap .main-header a {
+  position: absolute;
+  color: white;
+  font-size: 1.9em;
+  border: 1px solid #2F477B;
+  border-radius: 4px;
+  background: #3359A2;
+  left: 0.2em;
+  top: 0.2em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+/* line 44, ../sass/styles.scss */
+.page-wrap .main-header .close-menu {
+  display: none;
+}
+/* line 50, ../sass/styles.scss */
+.page-wrap .content {
+  padding: 2.5em 1em 1em 1em;
+}
+
+/* line 55, ../sass/styles.scss */
+.main-nav {
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #373536;
+  overflow-y: auto;
+  transition: all 0.5s cubic-bezier(0.91, 0.8, 0.54, 1.39);
+}
+/* line 64, ../sass/styles.scss */
+.main-nav a {
+  display: block;
+  background: #373536;
+  border-top: 1px solid #3B3B3B;
+  border-bottom: 1px solid #2E2E2E;
+  color: white;
+  padding: 1em;
+}
+/* line 72, ../sass/styles.scss */
+.main-nav a:hover, .main-nav a:focus {
+  background: linear-gradient(#3b3b3b, #373536);
+}
+/* line 77, ../sass/styles.scss */
+.main-nav:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 1.5em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+/* line 87, ../sass/styles.scss */
+.main-nav:target {
+  width: 9.5em;
+}
+/* line 90, ../sass/styles.scss */
+.main-nav:target + .page-wrap {
+  width: calc(100% - $menu-width);
+}
+/* line 93, ../sass/styles.scss */
+.main-nav:target + .page-wrap .open-menu {
+  display: none;
+}
+/* line 97, ../sass/styles.scss */
+.main-nav:target + .page-wrap .close-menu {
+  display: block;
+}
+/* line 101, ../sass/styles.scss */
+.main-nav:target + .page-wrap .main-header {
+  width: calc(100% - $menu-width);
+  left: 9.5em;
+}
